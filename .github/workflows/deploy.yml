@@ -84,7 +84,7 @@ jobs:
       - name: Login via Azure CLI
         uses: azure/login@v1
         with:
-          creds: $ {{ secrets.AZURE_CREDENTIALS }}
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
           
       - name: Deploy da Nossa Aplicação Hello Java
         uses: azure/aci-deploy@v1
