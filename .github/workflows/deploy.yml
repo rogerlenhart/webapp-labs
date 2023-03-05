@@ -98,4 +98,4 @@ jobs:
           registry-username: ${{ secrets.REGISTRY_USERNAME }}
           registry-password: ${{ secrets.REGISTRY_PASSWORD }}
           name: lab-crescer-roger-lenhart
-          location: 'east-us'
+          location: 'east us'
